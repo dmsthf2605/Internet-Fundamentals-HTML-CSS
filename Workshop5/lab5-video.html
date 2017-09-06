@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>assignment 2 Video</title>
+    <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen" /> 
+	<link rel="stylesheet" href="css/sitecss.css" type="text/css" media="screen" /> 
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="../">My zenit Account</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Photo Gallery</a></li>
+        <li><a href="video.html">Video</a></li>
+        <li><a href="audio.html">Audio</a></li>
+        <li><a href="html5.html">HTML5</a></li>
+        <li><a href="tables.html">Tables with CSS</a></li>
+        <li><a href="guestbook/index.html">Guest Book</a></li>
+        <li><a href="css/sitecss.css">CSS Used</a></li>
+		<li><a href="extra/index.html">Extra</a></li>
+      </ul>
+    </nav>
+	<div class="main">
+	    <header>
+			<span>Video</span>
+        </header>
+        <div class="submain">
+			<h4>Video implementation in HTML5</h4>
+			<p>
+			The HTML5 specification introduced the video element for the purpose of playing videos,
+			partially replacing the object element. HTML5 video is intended by its creators to become 
+			the new standard way to show video on the web without plugins, instead of the previous 
+			de facto standard of using the proprietary Adobe Flash plugin, but has been hampered by 
+			lack of agreement as to which video coding formats should be supported in web browsers.			
+			</p>
+			<h4>Captain America:Civil War</h4>
+			<figure>
+				<video controls width="600">
+					<source src="misc/CaptainAmerica.mp4" type="video/mp4"/> 
+					<source src="misc/CaptainAmerica.webm" type="video/webm" />
+					<source src="misc/CaptainAmerica.ogg" type="video/ogg">
+					Your browser does not support the video tag / type
+				</video>
+				 <script>
+                   var video = document.getElementsByTagName('video')[0];
+                </script>
+			</figure>           
+		</div>
+		<div class="aside">
+		 <h4 class="pc">Video Control Options</h4>
+			<div>
+				<input type="button" value="Play" name="button1" onclick="video.play();"/>
+				<input type="button" value="Pause" name="button2" onclick="video.pause();"/>
+				<input type="button" value="Restart" name="button3" onclick="video.load();video.play();"/>
+				<input type="button" value="Show Controls" name="button4" onclick="video.load();video.controls=true;"/>
+				<input type="button" value="Remove Controls" name="button5" onclick="video.load();video.controls=false;"/>
+			</div>
+		 <hr/>
+		 <h4 class="pc">Social Media Links</h4>
+			<div style="position: relative; background: url('images/social-media.png') no-repeat; width: 250px; height: 140px;">
+			<a href="https://ca.yahoo.com" title="Yahoo" style="width:23px; height:23px; border:0; position:absolute; top:58px; left:168px;"></a>
+			<a href="https://www.instagram.com" title="Instagram" style="width:23px; height:23px; border:0; position: absolute; top:3px; left:168px;"></a>
+			<a href="https://www.amazon.ca/" title="Amazon" style="width:23px; height:23px; border:0; position:absolute; top:112px; left:113px;"></a>
+			<a href="https://www.microsoft.com/en-ca/windows/" title="Microsoft Windows" style="width:23px; height:23px; border:0; position:absolute; top:85px; left:86px;"></a>
+			<a href="http://facebook.com" title="Face Book" style="width:23px; height:23px; border:0; position: absolute; top:3px; left:4px;"></a> 
+			</div>
+		</div>
+	    <div class="clear"></div>
+	</div>
+    <!-- Defining Footer -->
+    <footer>
+        <script>
+          var dt=new Date(document.lastModified);   // Get document last modified date
+          document.write('This page was last updated on '+dt.toLocaleString()) 
+        </script>
+    </footer>
+  </body>
+</html>
