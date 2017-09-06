@@ -1,13 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>  <title>Lee</title>  <link   href='css/normalize.css' rel='stylesheet'  type='text/css' />  <link   href='css/mortgage.css' rel='stylesheet'  type='text/css' />  <script src='javascript/mortgage.js' type='text/javascript'></script>   </head> <body>	<form method="post" id="mortgage" name="mortgage"            action="https://zenit.senecac.on.ca/~emile.ohan/cgi-bin/assign3.cgi"            onsubmit="return formValidation();">		<div class = "main"> 		    <div class = "submain1">			  <p class = "p1">Mortgage</p> 			  <p class = "p1">Calculation</p>				<hr/>				<fieldset>				  <legend>Mortgage Details</legend>						<div class="user1">							<h4>Amortization</h4>							<h4>Interest Rate</h4>							<h4>Year</h4>							<h4>Month</h4>						</div>						<div class="user2">							<input type="text" size="3" name="amortization" id="amortization" maxlength="2" />					    							<input type="text" size="7" name="intRate" id="intRate" maxlength="6" />   							<input type="text" size="5" name="mortYear" id="mortYear" maxlength="4" />   							<input type="text" size="4" name="mortMonth" id="mortMonth" maxlength="2" />   						</div>				</fieldset>				<hr/>				<p><input type="submit" value="SUBMIT REQUEST" /></p>			</div>			<div class = "submain2">				<!--Personal Information-->				<fieldset>				  <legend>Personal Information</legend>						<div class="user3">							<h4>Client Id.</h4>							<h4>Client Name</h4>						</div>						<div class="user4">							<input type="text" size="10" name="userId" id="userId" maxlength="10" />					    							<input type="text" name="client" id="client" />   						</div>				</fieldset>				<!--Financial / Property Information-->				<fieldset>				  <legend>Financial / Property Information</legend>
-					<div>						<div class="user3">							<h4>Property Value</h4>							<h4>Down Payment</h4>						</div>						<div class="user4">							<input type="text" size="7" name="propValue" id="propValue" maxlength="6" />					    							<input type="text" size="7" name="downPay" id="downPay" maxlength="6" />   						</div>
+ <head>
+  <title>Eunsol Lee</title>
+  <link   href='css/normalize.css' rel='stylesheet'  type='text/css' />
+  <link   href='css/mortgage.css' rel='stylesheet'  type='text/css' />
+  <script src='javascript/mortgage.js' type='text/javascript'></script>  
+ </head>
+ <body>
+	<form method="post" id="mortgage" name="mortgage" 
+           action="https://zenit.senecac.on.ca/~emile.ohan/cgi-bin/assign3.cgi" 
+           onsubmit="return formValidation();">
+		<div class = "main"> 
+		    <div class = "submain1">
+			  <p class = "p1">Mortgage</p> 
+			  <p class = "p1">Calculation</p>
+				<hr/>
+				<fieldset>
+				  <legend>Mortgage Details</legend>
+						<div class="user1">
+							<h4>Amortization</h4>
+							<h4>Interest Rate</h4>
+							<h4>Year</h4>
+							<h4>Month</h4>
+						</div>
+						<div class="user2">
+							<input type="text" size="3" name="amortization" id="amortization" maxlength="2" />					    
+							<input type="text" size="7" name="intRate" id="intRate" maxlength="6" />   
+							<input type="text" size="5" name="mortYear" id="mortYear" maxlength="4" />   
+							<input type="text" size="4" name="mortMonth" id="mortMonth" maxlength="2" />   
+						</div>
+				</fieldset>
+				<hr/>
+				<p><input type="submit" value="SUBMIT REQUEST" /></p>
+			</div>
+			<div class = "submain2">
+				<!--Personal Information-->
+				<fieldset>
+				  <legend>Personal Information</legend>
+						<div class="user3">
+							<h4>Client Id.</h4>
+							<h4>Client Name</h4>
+						</div>
+						<div class="user4">
+							<input type="text" size="10" name="userId" id="userId" maxlength="10" />					    
+							<input type="text" name="client" id="client" />   
+						</div>
+				</fieldset>
+				<!--Financial / Property Information-->
+				<fieldset>
+				  <legend>Financial / Property Information</legend>
+					<div>
+						<div class="user3">
+							<h4>Property Value</h4>
+							<h4>Down Payment</h4>
+						</div>
+						<div class="user4">
+							<input type="text" size="7" name="propValue" id="propValue" maxlength="6" />					    
+							<input type="text" size="7" name="downPay" id="downPay" maxlength="6" />   
+						</div>
 						<div class="clear"></div>
 					</div>
-										<div class = "select1">	
-						<span class="p3">Location</span><span class="p4">Income Range</span><br/>											<select id="propLocation" name="propLocation" size="4">							<option value="Toronto">Toronto</option>							<option value="Brampton">Brampton</option>							<option value="Guelph">Guelph</option>
+					
+					<div class = "select1">	
+						<span class="p3">Location</span><span class="p4">Income Range</span><br/>					
+						<select id="propLocation" name="propLocation" size="4">
+							<option value="Toronto">Toronto</option>
+							<option value="Brampton">Brampton</option>
+							<option value="Guelph">Guelph</option>
 							<option value="Vaughan">Vaughan</option>
-							<option value="Waterloo">Waterloo</option>						</select>						<select id="income" name="income" size="4">							<option value="0">Under 30,000</option>
+							<option value="Waterloo">Waterloo</option>
+						</select>
+
+						<select id="income" name="income" size="4">
+							<option value="0">Under 30,000</option>
 							<option value="1">30,001 - 40,000</option>
 							<option value="2">40,001 to 50,000</option>
 							<option value="3">50,001 to 60,000</option>
@@ -16,16 +81,59 @@
 							<option value="6">80,001 to 90,000</option>
 							<option value="7">90,001 to 100,000</option>
 							<option value="8">100,001 to 120,000</option>
-							<option value="9">Over 120,000</option>						</select>					</div>					<hr/>
+							<option value="9">Over 120,000</option>
+						</select>
+					</div>
+					<hr/>
 					<!--Property Type-->
-					<span class = "p2"><b>Property Type</b><br/>						<input type="radio" name="propDetails" id="p01" value="Detached" />Detached						<input type="radio" name="propDetails" id="p02" value="Semi Detached" />Semi Detached						<input type="radio" name="propDetails" id="p03" value="Town House" />Town House <br/>						<input type="radio" name="propDetails" id="p04" value="Row House" />Row House						<input type="radio" name="propDetails" id="p05" value="Condo" />Condo						<input type="radio" name="propDetails" id="p06" value="Vacant Land" />Vacant Land					</span>				</fieldset>							<fieldset>				  <legend>Comments</legend>					<textarea name="comments" id="comments" rows="2" cols="30"></textarea>				</fieldset>			</div>						<div class = "submain3">				<fieldset>				  <legend>Monthly Payment</legend>
-				  <p class = "pay">					<input type="text" name="payment" size="8" readonly="readonly" maxlength="8"/><br/>
-				  </p>					<input type="button" value="Calculate Monthly Payment" onclick="calculatePayment();"/>				</fieldset>				<div id="errors">				</div>			</div>				<div class = "clear"></div>		</div>	
+					<span class = "p2"><b>Property Type</b><br/>
+						<input type="radio" name="propDetails" id="p01" value="Detached" />Detached
+						<input type="radio" name="propDetails" id="p02" value="Semi Detached" />Semi Detached
+						<input type="radio" name="propDetails" id="p03" value="Town House" />Town House <br/>
+						<input type="radio" name="propDetails" id="p04" value="Row House" />Row House
+						<input type="radio" name="propDetails" id="p05" value="Condo" />Condo
+						<input type="radio" name="propDetails" id="p06" value="Vacant Land" />Vacant Land
+					</span>
+				</fieldset>
+			
+				<fieldset>
+				  <legend>Comments</legend>
+					<textarea name="comments" id="comments" rows="2" cols="30"></textarea>
+				</fieldset>
+			</div>
+			
+			<div class = "submain3">
+				<fieldset>
+				  <legend>Monthly Payment</legend>
+				  <p class = "pay">
+					<input type="text" name="payment" size="8" readonly="readonly" maxlength="8"/><br/>
+				  </p>
+					<input type="button" value="Calculate Monthly Payment" onclick="calculatePayment();"/>
+				</fieldset>
+				<div id="errors">
+
+				</div>
+			</div>	
+			<div class = "clear"></div>
+		</div>	
 		<input type="hidden" name="jsActive" value="N" />
 		<input type="hidden" name="lastName" value="Lee" />
 		<input type="hidden" name="studentId" value="029-557-154" />
-		<input type="hidden" name="zenitAccount" value="int222_161e10" />	</form>	<footer>		<nav>
+		<input type="hidden" name="zenitAccount" value="int222_161e10" />
+	</form>
+	<footer>
+		<nav>
 			<ul>
-				<li><a href="../">My zenit Account</a></li>				<li><a href="javascript/">My JavaScript</a></li>				<li><a href="css/">My CSS</a></li>				<li><a href="honesty.html">My Honesty</a></li>			</ul>
-		</nav><br/>			<script>			var dt=new Date(document.lastModified);   // Get document last modified date			document.write('This page was last updated on '+dt.toLocaleString()) 		</script>	</footer>   		   	   
- </body></html>
+				<li><a href="../">My zenit Account</a></li>
+				<li><a href="javascript/">My JavaScript</a></li>
+				<li><a href="css/">My CSS</a></li>
+				<li><a href="honesty.html">My Honesty</a></li>
+			</ul>
+		</nav><br/>	
+		<script>
+			var dt=new Date(document.lastModified);   // Get document last modified date
+			document.write('This page was last updated on '+dt.toLocaleString()) 
+		</script>
+	</footer>   		   	   
+ </body>
+</html>
