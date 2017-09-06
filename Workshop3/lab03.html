@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>INT222</title>
+	<script>
+	var e1="", e2="", e3="", e4="", e5="", e6="", e7="", e8=0, e9="";
+
+	// Your code goes here
+	
+	e1 = prompt("Please enter your first name (lower case)", "");
+	e1 = e1.substr(0,1).toUpperCase() + e1.substring(1);
+	e2 = prompt(e1 + ", Please enter 1 integer between 1 and 9", "");
+	e3 = prompt(e1 + ", Please enter 5 numbers separated by commas", "");
+	e4 = prompt(e1 + ", Please enter 3 colors seperated by commas", "");
+	e6 = e3.split(',');
+	e7 = e4.split(',');
+
+	// display a table
+	document.write("<table style = 'text-align:center' border = '1', cellpadding = '5'>");
+	document.write("<caption>The number in <b>e2</b> is " + e2 +"</caption>");
+		document.write("<tr>");	
+		document.write("<td colspan = '5'>Times Table for the number" + e2 + "</td>");
+		document.write("</tr>")
+    	
+		for (i = 1 ; i <= 12 ; i++) {  
+        	document.write("<tr>");
+        	document.write("<td width = '15'>" + e2 + "</td>");
+        	document.write("<td width = '15'> * </td>");
+        	document.write("<td width = '50'>" + i + "</td>");
+        	document.write("<td width = '15'> = </td> ");
+        	document.write("<td width = '50'>" + e2 * i + "</td>");
+        	document.write("</tr>");
+    	}// for()
+    	document.write("</table>");
+	
+	//sum up the numbers
+	for (var i = 0; i < e6.length; i++) {
+		e8 = eval("+e6[i] + e8");
+	}
+	alert(e8);
+	
+	// display differnt colors (seperate line)
+	for (var i = 0; i < e7.length; i++) {
+        	e9 += e7[i] + "\n";
+    	}
+	alert(e9);
+	
+	</script>
+	</head>
+	<body>
+	</body>
+</html>
