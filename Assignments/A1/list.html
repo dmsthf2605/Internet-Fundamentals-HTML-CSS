@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>assignment 1 - Lists</title>
+    <link rel="stylesheet" href="https://zenit.senecac.on.ca/~emile.ohan/int222/assignments/assignment-01/normalize.css"  type="text/css" media="screen" /> 
+    <link rel="stylesheet" href="https://zenit.senecac.on.ca/~emile.ohan/int222/assignments/assignment-01/master.css" type="text/css" media="screen" /> 
+    <link rel="stylesheet" href="css/mycss.css" type="text/css" media="screen" /> 
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="../">Main Home</a></li>
+        <li><a href="index.html">Assignment 1 Home</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="list.html">Lists with CSS</a></li>
+        <li><a href="text.html">Text with CSS</a></li>
+        <li><a href="table.html">Tables with CSS</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="honesty.html">Honesty</a></li>
+        <li><a href="css/mycss.css">CSS Used</a></li>
+      </ul>
+    </nav>
+    <div id="content">
+      <div id="mcontent">
+        <header>
+          <p id="pageHeader">Lists With CSS</p>
+        </header>
+        <!-- Your code goes here -->
+		<div class = "platspace">	
+		<p><b>My Favorite BEERS</b></p>
+		<ul class = "sq">
+			<li>Kronenbourg 1664 Blanc</li>
+			<li>Coors Light</li>
+			<li>Rickards Original White</li>
+			<li>Guinness</li>
+			<li>Hoegaarden</li>
+		</ul>
+		<hr/>
+		<p><b>My Favorite MOVIES</b></p>
+		<ol class = "la">
+			<li>MAMMA MIA!(2008)</li>
+			<li>The Notebook(2004)</li>
+			<li>About Time(2013)</li>
+			<li>The Vow(2012)</li>
+		</ol>
+		<hr/>
+		<p><b>My Favorite MUSICIAN</b></p>
+		<ul class = "cir">
+			<li>Justin Timberlake
+				<ol class = "lr">
+					<li>Sexy Back</li>
+					<li>What Goes Around.../...Comes Around</li>
+					<li>Cry Me A River</li>
+				</ol>
+			</li>
+			<li>Taylor Swift
+				<ol class = "lr">
+					<li>Love Story</li>
+					<li>You Belong With Me</li>
+					<li>Crazier</li>
+				</ol>
+			</li>	
+		</ul>
+		<hr/>
+		<dl class = "d">
+			<dt>My Summer Vacation Plans</dt>
+				<dd>Study Hard</dd>
+				<dd>Go somewhere</dd>
+				<dd>Go to the GYM</dd>
+		</dl>
+		</div>
+        <!-- Your code ends here -->
+      </div>
+    </div>
+    <!-- Defining Footer -->
+    <footer>
+        <script>
+          var dt=new Date(document.lastModified);   // Get document last modified date
+          document.write('This page was last updated on '+dt.toLocaleString()) 
+        </script>
+    </footer>
+  </body>
+</html>

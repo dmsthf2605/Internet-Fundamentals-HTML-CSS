@@ -1,0 +1,168 @@
+/* *********************************************************
+   These are the styles common to all Assignment #1 pages
+   ********************************************************* */
+/* for the visitors that have 17 inch monitors, create some space on the left side */
+.platspace{
+	margin-left:30px;
+}
+
+/* *********************************************************
+   These are the styles used in the Assignment #1 Home page
+   ********************************************************* */ 
+
+
+
+/* *********************************************************
+   These are the styles used in the Profile page
+   ********************************************************* */
+.pmargin{
+	margin-left:50px;
+}
+
+.pmargin2{
+	margin-left:80px;
+}
+
+
+/* *********************************************************
+   These are the styles used in the Lists  page
+   ********************************************************* */
+   
+.sq{/* unordered list & the bullet is a square */ 
+	list-style-type:square;
+  }
+   
+.la{/* ordered list & lower case alphabets */
+	list-style-type:lower-alpha;
+}
+
+.cir{/* unordered & circle bullet */  
+	list-style-type:circle;
+}
+
+.lr{/* ordered & lower case roman numerals */
+	list-style-type:lower-roman;
+}
+
+.d{/* Definition lists*/
+	margin:10px;	
+}
+
+
+/* *********************************************************
+   These are the styles used in the Text  page
+   ********************************************************* */
+.lspacing{
+	letter-spacing:3px;	
+}   
+
+.uline{
+	text-decoration:underline;
+}
+
+.wspacing{
+	word-spacing:30px;	
+}
+
+.tindent{
+	text-indent:40px;
+}
+
+.tcolor{
+	background-color:#000066;
+	color:#ffffff;
+	
+}
+
+.ffamily{
+	font-family:"Times New Roman", serif;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.fstyle{
+	font-style:italic;	
+}
+
+#iuline{
+	text-decoration:underline;	
+}
+
+.tupper{
+	text-transform:uppercase;
+}
+
+/* *********************************************************
+   These are the styles used in the Table with CSS page
+   ********************************************************* */
+.table1{
+	width:500px;
+	border:4px solid;
+	margin:auto;
+	border-collapse:separate;
+	border-spacing:10px;
+	margin-bottom:40px;
+}
+
+th, td{
+	border:2px solid;
+	padding:1px;
+}
+
+.theight{
+		height:60px;
+}
+
+.tcenter{
+	text-align:center;
+}
+
+.tleft{
+	text-align:left;
+}
+
+.tright{
+	text-align:right;
+}
+
+.tbottom{
+	vertical-align:bottom;
+}
+
+.ttop{
+	vertical-align:top;
+}
+
+.table2{
+	width:500px;
+	border:4px solid;
+	margin:auto;
+	border-collapse:separate;
+	border-spacing:10px;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+.cbottom{
+	caption-side:bottom;
+}
+
+.table3{
+	width:300px;
+	border:8px solid;
+	margin:auto;
+	margin-top:5px;
+	border-collapse:separate;
+	border-spacing:10px;
+}
+
+/* *********************************************************
+   These are the styles used in the Contact page
+   ********************************************************* */
+
+
+
+/* *********************************************************
+   These are the styles used in the Honesty page
+   ********************************************************* */
+
