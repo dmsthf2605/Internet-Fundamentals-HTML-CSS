@@ -1,0 +1,105 @@
+div.main{
+	border:1px solid #AAAAAA;	
+	width:930px;
+	background: linear-gradient(white, lightgrey);
+}
+
+div.main div.submain {
+	margin-top:5px;
+	margin-bottom:5px;
+	padding:15px;
+	width:38%;
+	float:left;
+	border:1px solid #AAAAAA;	
+}
+
+.submain1{
+	width:17%;
+	float:left;
+	text-align:center;
+}
+
+.clear {
+	clear:both;	
+}
+
+.p1{
+	text-shadow:0.1em 0.1em 0.05em #A4A4A4;
+	color:#336699;
+	font-size:24px;
+}
+
+.p2{
+	font-size:12px;
+}
+
+.p3{
+	font-size:13px;
+}
+
+fieldset{
+	border:4px groove #B2D8B2;
+	margin:auto;
+}
+
+span{
+	text-align:center;
+}
+
+legend {
+    border: 4px groove #FFB2B2;
+    background-color: #99ff99;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 3px;
+    text-shadow: 0.1em 0.2em 0.09em #333;
+}
+
+hr{
+	border:1px solid;
+	color:#ff0000;
+}
+
+table{
+	border:2px solid;
+	margin:auto;	
+	font-size:13px;
+}
+th, td{
+	border:1px solid;
+	padding:2px;
+	text-align:center;
+}
+
+input[type="submit"]{
+	padding:8px;
+	margin:5px;
+	background: linear-gradient(#08A5F8, #336699);
+	color:#ffffff;
+	font-size:12px; 
+	border:1px #000000 solid;
+}
+
+input[type="text"]{
+	padding:6px;
+}
+
+#special{
+	border:4px groove #B2D8B2;
+	padding:100px 45px;
+}
+
+select{
+	font-size:13px;
+	padding:5px 3px;
+}
+
+footer{
+	width:930px;
+	padding:3px;
+	margin:26px 3px 10px 3px;
+	background-color:#000000;
+	color:#ffffff;
+	text-align:center;
+}
+
