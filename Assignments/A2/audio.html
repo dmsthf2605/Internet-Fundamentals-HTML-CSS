@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>assignment 2 Audio</title>
+    <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen" /> 
+	<link rel="stylesheet" href="css/sitecss.css" type="text/css" media="screen" /> 
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="../">My zenit Account</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Photo Gallery</a></li>
+        <li><a href="video.html">Video</a></li>
+        <li><a href="audio.html">Audio</a></li>
+        <li><a href="html5.html">HTML5</a></li>
+        <li><a href="tables.html">Tables with CSS</a></li>
+        <li><a href="guestbook/index.html">Guest Book</a></li>
+        <li><a href="css/sitecss.css">CSS Used</a></li>
+		<li><a href="extra/index.html">Extra</a></li>
+      </ul>
+    </nav>
+	<div class="main">
+	    <header>
+			<span>Audio</span>
+        </header>
+        <div class="submain">
+			<h4>Audio implementation in HTML5</h4>
+			<p>The HTML5 audio element is used to embed sound content in documents. 
+			It may contain several audio sources, represented using the src attribute 
+			or the source element; the browser will choose the most suitable one.</p>
+			<br/>
+			<h4>Just a dream cover.</h4>
+			<div class="aud">
+				<audio controls="controls">
+					 <source src="misc/JustADream.mp3" type="audio/mpeg"/>
+					 <source src="misc/JustADream.ogg" type="audio/ogg" />
+					 <source src="misc/JustADream.wav" type="audio/wav" />
+					 Your browser does not support the audio tag used.
+				</audio> 
+			</div>
+	</div>
+	<div class="aside">
+		 <h4 class="pc">Audio Control Options</h4>
+			<div>
+				<input type="button" value="Play" name="button1"/>
+				<input type="button" value="Pause" name="button2"/>
+				<input type="button" value="Volume On" name="button3"/>
+				<input type="button" value="Volume Off" name="button4"/>
+				<input type="button" value="Increase Volume" name="button5"/>
+				<input type="button" value="Decrease Volume" name="button6"/>
+			</div>
+		 <hr/>
+		 <h4 class="pc">Social Media Links</h4>
+			<div style="position: relative; background: url('images/social-media.png') no-repeat; width: 250px; height: 140px;">
+			<a href="https://ca.yahoo.com" title="Yahoo" style="width:23px; height:23px; border:0; position:absolute; top:58px; left:168px;"></a>
+			<a href="https://www.instagram.com" title="Instagram" style="width:23px; height:23px; border:0; position: absolute; top:3px; left:168px;"></a>
+			<a href="https://www.amazon.ca/" title="Amazon" style="width:23px; height:23px; border:0; position:absolute; top:112px; left:113px;"></a>
+			<a href="https://www.microsoft.com/en-ca/windows/" title="Microsoft Windows" style="width:23px; height:23px; border:0; position:absolute; top:85px; left:86px;"></a>
+			<a href="http://facebook.com" title="Face Book" style="width:23px; height:23px; border:0; position: absolute; top:3px; left:4px;"></a> 
+			</div>
+		</div>
+	    <div class="clear"></div>
+	</div>
+    <!-- Defining Footer -->
+    <footer>
+        <script>
+          var dt=new Date(document.lastModified);   // Get document last modified date
+          document.write('This page was last updated on '+dt.toLocaleString()) 
+        </script>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,156 @@
+div.main{
+    margin-top:5px;
+	width:900px;
+}
+
+div.submain{
+	width:71%;
+	padding-left:10px;
+	float:left;
+}
+
+div.aside{
+	margin:5px;
+	padding:5px;
+	width:25%;
+	float:left;
+}
+
+.pc{
+	text-align:center;
+}
+
+.clear{
+	clear:both;
+}
+
+hr{
+	margin-top:30px;
+	background-color:#ff9900;
+	height:3px;
+	border:0px;
+}
+header{
+    text-indent:10px;
+    font-size:1.8em;
+    font-weight:bold;
+	margin:20px 0px;
+	background-color:#ff9900;
+	color:#ffffff;
+}
+
+body{
+	overflow:scroll;
+	width:1000px;
+    margin:5px auto;
+    font-family:georgia;
+    background:#ffffff;
+    color:#000000;
+}
+
+nav{
+    text-align:center;
+    width:960px;
+    height:35px;
+    border-radius:5px;
+    background:#ff9900;
+    color:#ffffff;
+}
+nav ul{
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+    margin:0 auto;
+    width:96%;
+}
+nav ul li{
+    float:left;
+}
+nav ul li a{
+    padding-top:10px;
+    margin-right:30px;
+    display:block;
+    line-height:40px;
+    font:75% georgia;
+    color:#ffffff;
+    background:#ff9900;
+}
+
+figcaption {
+    margin:5px;
+    font-size:13px;
+    word-wrap:normal;
+    text-align:center;
+}
+
+figure{
+	float:right;
+} 
+
+.img{
+	width:100%;
+	margin-bottom:40px;
+}
+
+.aud{
+	margin-left:200px;
+}
+
+ul.u{
+	list-style-type:none;
+}
+
+footer{
+	width:960px;
+	height:25px;
+	background:#ff9900;
+	color:#ffffff;
+	position:absolute;
+	text-align:center;
+	font-size:13px;
+	font-weight:bold;
+	display:inline-block;
+	margin-top:50px;
+	padding-top:10px;
+	border-radius:5px;
+}
+
+table{
+	border:1px solid;
+	margin:auto;
+	border-spacing:20px;
+	border-collapse:separate;
+}
+th, td{
+	border:1px solid;
+	padding:5px 7px;
+}
+.tc1{
+	background-color:#3FBF7F;
+}
+.tc2{
+	background-color:#32CC98;
+}
+.tc3{
+	background-color:#26D8BA;
+}
+.tc4{
+	background-color:#19E5E5;
+}
+.tc5{
+	background-color:#0CCCF2;
+}
+.tc6{
+	background-color:#01A9FD;
+}
+
+input[type="button"]{
+	width:70%;
+	display:block;
+	padding:8px;
+	margin:5px auto;
+	background-color:#ff9900;
+	color:#ffffff;
+	font-size:13px;
+	border:1px solid white;
+}

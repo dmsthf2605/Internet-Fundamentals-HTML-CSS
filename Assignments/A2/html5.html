@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>assignment 2 HTML5</title>
+    <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen" /> 
+	<link rel="stylesheet" href="css/sitecss.css" type="text/css" media="screen" /> 
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="../">My zenit Account</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Photo Gallery</a></li>
+        <li><a href="video.html">Video</a></li>
+        <li><a href="audio.html">Audio</a></li>
+        <li><a href="html5.html">HTML5</a></li>
+        <li><a href="tables.html">Tables with CSS</a></li>
+        <li><a href="guestbook/index.html">Guest Book</a></li>
+        <li><a href="css/sitecss.css">CSS Used</a></li>
+		<li><a href="extra/index.html">Extra</a></li>
+      </ul>
+    </nav>
+	<div class="main">
+	    <header>
+			<span>HTML5</span>
+        </header>
+        <div class="submain">
+			<h4>HTML5 new form attributes</h4>
+				<p>HTML5 now introduces a new form attribute that allows you to associate any orphaned 
+				form control with any <i>form</i> element on the page such as placeholder, autofocus,
+				autocomplete, required, pattern, list, multiple, novalidate, formnovalidate, form,
+				formaction, formenctype, formmethod, formtarget.
+			</p><br/>
+			<h4>How to set autofocus</h4>
+				<input type="text" name="entry01" id="entry01" autofocus="autofocus"/>			
+				<p>&lt;input type="text" name="entry01" id="entry01" autofocus="autofocus"/&gt;</p><hr/>
+			<h4>How to set a placeholder</h4>
+				<input type="text" name="entry02" id="entry02" placeholder="Default text"/>
+				<p>&lt;input type="text" name="entry02" id="entry02" placeholder="Default text"/&gt;</p><hr/>
+			<h4>How to set required for an entry</h4>
+				<input type="text" name="entry03" id="entry03" required="required"/>  
+				<p>&lt;input type="text" name="entry03" id="entry03" required="required"/&gt;</p><hr/>
+			<h4>How to create a list/datalist</h4>
+				 <input type="text" id="entry04" name="entry04" list="fruits" placeholder="Select one"/>
+					 <datalist id="fruits">
+						<option value="Apple">Apple</option>
+						<option value="Banana">Banana</option>
+						<option value="Blueberry">Blueberry</option>
+						<option value="Kiwi">Kiwi</option>
+						<option value="Mango">Mango</option>
+					 </datalist> 
+				<p>&lt;input type="text" id="entry04" name="entry04" list="fruits" placeholder="Select one"/&gt;<br/>
+					&lt;datalist id="fruits"&gt;<br/>
+					&lt;option value="Apple"&gt;Apple&lt;/option&gt;<br/>
+					&lt;option value="Banana"&gt;Banana&lt;/option&gt;<br/>
+					&lt;option value="Blueberry"&gt;Blueberry&lt;/option&gt;<br/>
+					&lt;option value="Kiwi"&gt;Kiwi&lt;/option&gt;<br/>
+					&lt;option value="Mango"&gt;Mango&lt;/option&gt;<br/>
+					&lt;/datalist&gt;<br/>
+				</p><hr/>
+			<h4>How to ensure a valid email address format</h4>
+				<input type="email" name="entry05" id="entry05"/>
+				<p>&lt;input type="email" name="entry05" id="entry05"/&gt;</p><hr/>
+			<h4>How to ensure a valid url format</h4>
+				<input type="url" name="entry06" id="entry06"/>
+				<p>&lt;input type="url" name="entry06" id="entry06"/&gt;</p><hr/>
+		</div>
+		<div class="aside">
+			<h4 class="pc">New Attributes in HTML5</h4>
+			 <ol>
+				<li>Autofocus</li>
+				<li>Placeholder</li>
+				<li>required</li>
+				<li>Datalist</li>
+				<li>E-mail</li>
+				<li>URL</li>
+			 </ol>
+		 <hr/>
+		 <h4 class="pc">Social Media Links</h4>
+			<div style="position: relative; background: url('images/social-media.png') no-repeat; width: 250px; height: 140px;">
+			<a href="https://ca.yahoo.com" title="Yahoo" style="width:23px; height:23px; border:0; position:absolute; top:58px; left:168px;"></a>
+			<a href="https://www.instagram.com" title="Instagram" style="width:23px; height:23px; border:0; position: absolute; top:3px; left:168px;"></a>
+			<a href="https://www.amazon.ca/" title="Amazon" style="width:23px; height:23px; border:0; position:absolute; top:112px; left:113px;"></a>
+			<a href="https://www.microsoft.com/en-ca/windows/" title="Microsoft Windows" style="width:23px; height:23px; border:0; position:absolute; top:85px; left:86px;"></a>
+			<a href="http://facebook.com" title="Face Book" style="width:23px; height:23px; border:0; position: absolute; top:3px; left:4px;"></a> 
+			</div>
+		</div>
+	    <div class="clear"></div>
+	</div>
+    <!-- Defining Footer -->
+    <footer>
+        <script>
+          var dt=new Date(document.lastModified);   // Get document last modified date
+          document.write('This page was last updated on '+dt.toLocaleString()) 
+        </script>
+    </footer>
+  </body>
+</html>
