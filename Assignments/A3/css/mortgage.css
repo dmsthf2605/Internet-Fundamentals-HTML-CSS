@@ -1,0 +1,172 @@
+div.main{
+	border:1px solid #AAAAAA;	
+	width:1000px;
+}
+
+div.main div.submain1{
+	width:27%;
+	float:left;
+}
+
+div.main div.submain2{
+	margin-top:5px;
+	margin-bottom:5px;
+	padding:15px;
+	width:35%;
+	float:left;
+}
+
+div.main div.submain3{
+	margin-top:5px;
+	margin-bottom:5px;
+	padding:15px;
+	width:31%;
+	float:left;
+}
+
+select{
+	margin:0px 10px;
+}
+
+.clear {
+	clear:both;	
+}
+
+.p1{
+	margin:5px 10px;
+	text-shadow:0.1em 0.1em 0.05em #A4A4A4;
+	color:#1a001a;
+	font-size:24px;
+	font-weight:500;
+}
+.p2{
+	font-size:12px;
+}
+.p3{
+	font-size:13px;
+	font-weight:bold;
+	margin:0px 14px;	
+}
+.p4{
+	font-size:13px;
+	font-weight:bold;
+	margin:0px 40px;	
+}
+
+fieldset{
+	border:4px; 
+	border-color:#660066;
+	border-style:outset;
+	margin:4px;
+}
+legend {
+    border:2px solid;
+	border-color:#ffffff;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 4px;
+    text-shadow: 0.1em 0.2em 0.09em #333;
+}
+
+hr{
+	border:3px solid;
+	border-style:dashed;
+	color:#660066;
+}
+
+input[type="submit"]{
+	padding:8px;
+	margin:30px 70px;
+	background: linear-gradient(#800080, #4d004d);
+	color:#ffffff;
+	font-size:12px; 
+	border:1px solid #ffffff;
+}
+input[type="button"]{
+	padding:7px;
+	margin:5px 43px;
+	background: linear-gradient(#800080, #4d004d);
+	color:#ffffff;
+	font-size:14px; 
+	border:1px solid #ffffff;
+}
+input[type="text"]{
+	padding:2px;
+	margin:4px;
+}
+.pay{
+	margin:0px 80px 15px;
+}
+.user1{
+	margin:0px;
+	font-size:13px;
+	width:50%;
+	float:left;
+	text-align:left;
+}
+.user2{
+	margin:8px 0px;
+	width:40%;
+	float:left;
+}
+.user3{
+	margin:0px;
+	font-size:13px;
+	width:30%;
+	float:left;
+	text-align:left;
+}
+.user4{
+	margin:8px 0px;
+	width:40%;
+	float:left;
+}
+
+#errors{
+	border:4px; 
+	border-color:#660066;
+	border-style:outset;
+	margin:3px;
+	padding:5px;
+	font-size:13px;
+	color:#ff0000;
+	font-weight:bold;
+}
+
+select{
+	font-size:13px;
+	padding:5px 3px;
+}
+
+footer{
+	width:982px;
+	padding:10px;
+	background-color:#000000;
+	color:#ffffff;
+	text-align:center;
+}
+nav{
+    text-align:center;
+    height:35px;
+    background:#000000;
+    color:#ffffff;
+}
+nav ul{
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+    margin:auto;
+    width:83%;
+}
+nav ul li{
+    float:left;
+	margin:0px 40px;
+}
+nav ul li a{
+    margin-right:30px;
+    display:block;
+    line-height:40px;
+    color:#ffffff;
+    background:#000000;
+}
